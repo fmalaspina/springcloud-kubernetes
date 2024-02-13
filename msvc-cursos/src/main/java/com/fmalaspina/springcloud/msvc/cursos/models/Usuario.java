@@ -1,24 +1,20 @@
-package org.fmalaspina.springcloud.msvc.usuarios.models.enetities;
+package com.fmalaspina.springcloud.msvc.cursos.models;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 
-@Entity
-@Table(name = "usuarios")
 public class Usuario {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     Long id;
-    @NotBlank(message = "no puede estar vacio")
+
     private String nombre;
-    @NotBlank(message = "no puede estar vacio")
-    @Email(message = "no es una dirección de correo bien formada")
-    @Column(unique = true)
+
     private String email;
-    @NotBlank(message = "no puede estar vacio")
+
 
     private String password;
 
