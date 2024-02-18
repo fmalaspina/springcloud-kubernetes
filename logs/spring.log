@@ -1,0 +1,22 @@
+2024-02-13T14:39:49.846Z  INFO 1 --- [msvc-usuarios] [main] o.f.s.m.u.MsvcUsuariosApplication        : Starting MsvcUsuariosApplication v0.0.1-SNAPSHOT using Java 17-ea with PID 1 (/app/msvc-usuarios-0.0.1-SNAPSHOT.jar started by root in /app)
+2024-02-13T14:39:49.858Z  INFO 1 --- [msvc-usuarios] [main] o.f.s.m.u.MsvcUsuariosApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-02-13T14:39:51.332Z  INFO 1 --- [msvc-usuarios] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-13T14:39:51.402Z  INFO 1 --- [msvc-usuarios] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-02-13T14:39:51.712Z  INFO 1 --- [msvc-usuarios] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d23033e6-0089-36ee-84c4-5da44449d873
+2024-02-13T14:39:52.319Z  INFO 1 --- [msvc-usuarios] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
+2024-02-13T14:39:52.333Z  INFO 1 --- [msvc-usuarios] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-13T14:39:52.333Z  INFO 1 --- [msvc-usuarios] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-13T14:39:52.385Z  INFO 1 --- [msvc-usuarios] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-13T14:39:52.386Z  INFO 1 --- [msvc-usuarios] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2259 ms
+2024-02-13T14:39:52.610Z  INFO 1 --- [msvc-usuarios] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-13T14:39:52.723Z  INFO 1 --- [msvc-usuarios] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-13T14:39:52.775Z  INFO 1 --- [msvc-usuarios] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-13T14:39:53.056Z  INFO 1 --- [msvc-usuarios] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-13T14:39:53.091Z  INFO 1 --- [msvc-usuarios] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-13T14:39:53.536Z  INFO 1 --- [msvc-usuarios] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72110818
+2024-02-13T14:39:53.539Z  INFO 1 --- [msvc-usuarios] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-13T14:39:54.606Z  INFO 1 --- [msvc-usuarios] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-13T14:39:54.684Z  INFO 1 --- [msvc-usuarios] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13T14:39:54.942Z  INFO 1 --- [msvc-usuarios] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-13T14:39:55.906Z  INFO 1 --- [msvc-usuarios] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path ''
+2024-02-13T14:39:55.925Z  INFO 1 --- [msvc-usuarios] [main] o.f.s.m.u.MsvcUsuariosApplication        : Started MsvcUsuariosApplication in 6.992 seconds (process running for 7.771)
